@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XZQTest/Classes/**/*'
+  s.source_files = 'XZQTest/Classes/*'
   
   s.resource_bundles = {
      'XZQTest' => ['XZQTest/Assets/*.xcassets']
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
     
   s.subspec 'Dictionary' do |ss|
      ss.source_files = 'XZQTest/Classes/Dictionary/*.{h,m}'
-     ss.source_files = 'XZQTest/Classes/Dictionary/*.{h}'
+     ss.public_header_files = 'XZQTest/Classes/Dictionary/*.{h}'
   end
 
 
