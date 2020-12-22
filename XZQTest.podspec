@@ -35,6 +35,17 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
      'XZQTest' => ['XZQTest/Assets/*.xcassets']
   }
+  
+  s.subspec 'Array' do |ss|
+     ss.source_files = 'XZQTest/Classes/Array/*.{h,m}'
+     ss.public_header_files = 'XZQTest/Classes/Array/*.{h}'
+  end
+    
+  s.subspec 'Dictionary' do |ss|
+     ss.source_files = 'XZQTest/Classes/Dictionary/*.{h,m}'
+     ss.source_files = 'XZQTest/Classes/Dictionary/*.{h}'
+  end
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
