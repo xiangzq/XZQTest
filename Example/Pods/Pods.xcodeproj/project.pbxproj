@@ -11,6 +11,14 @@
 		31A1E24F259197470013230B /* XZQPodTest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A1E24E259197470013230B /* XZQPodTest.xcassets */; };
 		31A1E2552591975F0013230B /* XMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A1E2532591975F0013230B /* XMethodSwizzling.h */; };
 		31A1E2562591975F0013230B /* XMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1E2542591975F0013230B /* XMethodSwizzling.m */; };
+		31A1E2C02591A0690013230B /* NSMutableArray+XCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A1E2B72591A0690013230B /* NSMutableArray+XCrash.h */; };
+		31A1E2C12591A0690013230B /* NSArray+XCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A1E2B82591A0690013230B /* NSArray+XCrash.h */; };
+		31A1E2C22591A0690013230B /* NSArray+XCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1E2B92591A0690013230B /* NSArray+XCrash.m */; };
+		31A1E2C32591A0690013230B /* NSMutableArray+XCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1E2BA2591A0690013230B /* NSMutableArray+XCrash.m */; };
+		31A1E2C42591A0690013230B /* NSDictionary+XCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A1E2BC2591A0690013230B /* NSDictionary+XCrash.h */; };
+		31A1E2C52591A0690013230B /* NSMutableDictionary+XCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A1E2BD2591A0690013230B /* NSMutableDictionary+XCrash.h */; };
+		31A1E2C62591A0690013230B /* NSDictionary+XCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1E2BE2591A0690013230B /* NSDictionary+XCrash.m */; };
+		31A1E2C72591A0690013230B /* NSMutableDictionary+XCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1E2BF2591A0690013230B /* NSMutableDictionary+XCrash.m */; };
 		5380D4990ABAAB101892031218F54516 /* Pods-XZQTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6C9E7A39D7F80932D20631A58F5A94 /* Pods-XZQTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		593AD0B568C333590D077DD6D6407B9C /* Pods-XZQTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 113F2033C02DFB0A6E986280B773CD7F /* Pods-XZQTest_Tests-dummy.m */; };
 		5A5FBA4102A6A73EF7F051FD4099FEF3 /* XZQTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7686CB5B72A7CFA8E235FE52ECAE1DA /* XZQTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +58,14 @@
 		31A1E24E259197470013230B /* XZQPodTest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XZQPodTest.xcassets; sourceTree = "<group>"; };
 		31A1E2532591975F0013230B /* XMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMethodSwizzling.h; sourceTree = "<group>"; };
 		31A1E2542591975F0013230B /* XMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMethodSwizzling.m; sourceTree = "<group>"; };
+		31A1E2B72591A0690013230B /* NSMutableArray+XCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XCrash.h"; sourceTree = "<group>"; };
+		31A1E2B82591A0690013230B /* NSArray+XCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XCrash.h"; sourceTree = "<group>"; };
+		31A1E2B92591A0690013230B /* NSArray+XCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XCrash.m"; sourceTree = "<group>"; };
+		31A1E2BA2591A0690013230B /* NSMutableArray+XCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XCrash.m"; sourceTree = "<group>"; };
+		31A1E2BC2591A0690013230B /* NSDictionary+XCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XCrash.h"; sourceTree = "<group>"; };
+		31A1E2BD2591A0690013230B /* NSMutableDictionary+XCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+XCrash.h"; sourceTree = "<group>"; };
+		31A1E2BE2591A0690013230B /* NSDictionary+XCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XCrash.m"; sourceTree = "<group>"; };
+		31A1E2BF2591A0690013230B /* NSMutableDictionary+XCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+XCrash.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3267E96810D8B7AFA5C0D85A5F5EF172 /* Pods-XZQTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XZQTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		519EEC339182E7132822F1E1996CBC80 /* XZQTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XZQTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,11 +150,35 @@
 		31A1E246259196F70013230B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				31A1E2B62591A0690013230B /* Array */,
+				31A1E2BB2591A0690013230B /* Dictionary */,
 				31A1E2532591975F0013230B /* XMethodSwizzling.h */,
 				31A1E2542591975F0013230B /* XMethodSwizzling.m */,
 			);
 			name = Classes;
 			path = XZQTest/Classes;
+			sourceTree = "<group>";
+		};
+		31A1E2B62591A0690013230B /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				31A1E2B72591A0690013230B /* NSMutableArray+XCrash.h */,
+				31A1E2B82591A0690013230B /* NSArray+XCrash.h */,
+				31A1E2B92591A0690013230B /* NSArray+XCrash.m */,
+				31A1E2BA2591A0690013230B /* NSMutableArray+XCrash.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		31A1E2BB2591A0690013230B /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				31A1E2BC2591A0690013230B /* NSDictionary+XCrash.h */,
+				31A1E2BD2591A0690013230B /* NSMutableDictionary+XCrash.h */,
+				31A1E2BE2591A0690013230B /* NSDictionary+XCrash.m */,
+				31A1E2BF2591A0690013230B /* NSMutableDictionary+XCrash.m */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		553F7986639958316BC6593F6EC4B8D0 /* XZQTest */ = {
@@ -269,6 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A1E2552591975F0013230B /* XMethodSwizzling.h in Headers */,
+				31A1E2C02591A0690013230B /* NSMutableArray+XCrash.h in Headers */,
+				31A1E2C42591A0690013230B /* NSDictionary+XCrash.h in Headers */,
+				31A1E2C52591A0690013230B /* NSMutableDictionary+XCrash.h in Headers */,
+				31A1E2C12591A0690013230B /* NSArray+XCrash.h in Headers */,
 				5380D4990ABAAB101892031218F54516 /* Pods-XZQTest_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A1E2C32591A0690013230B /* NSMutableArray+XCrash.m in Sources */,
+				31A1E2C22591A0690013230B /* NSArray+XCrash.m in Sources */,
+				31A1E2C62591A0690013230B /* NSDictionary+XCrash.m in Sources */,
 				1117385E9DF3C0D36B02A8C388E5612D /* Pods-XZQTest_Example-dummy.m in Sources */,
+				31A1E2C72591A0690013230B /* NSMutableDictionary+XCrash.m in Sources */,
 				31A1E2562591975F0013230B /* XMethodSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
