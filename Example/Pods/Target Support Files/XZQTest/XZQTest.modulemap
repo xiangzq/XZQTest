@@ -1,0 +1,6 @@
+framework module XZQTest {
+  umbrella header "XZQTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

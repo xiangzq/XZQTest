@@ -1,0 +1,16 @@
+PODS:
+  - XZQTest (0.1.0)
+
+DEPENDENCIES:
+  - XZQTest (from `../`)
+
+EXTERNAL SOURCES:
+  XZQTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XZQTest: 4efd6821f70bcf245eb4007cccf6c1b09b2c4cc3
+
+PODFILE CHECKSUM: d5e45d71bc9aa3ebb62ebc0898aa2657a32923f6
+
+COCOAPODS: 1.8.4
