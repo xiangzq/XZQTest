@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XZQTest/Classes/*'
+  s.public_header_files = 'XZQTest/Classes/**/*.h'
   
   s.resource_bundles = {
      'XZQTest' => ['XZQTest/Assets/*.xcassets']
@@ -47,7 +48,7 @@ TODO: Add long description of the pod here.
   end
 
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

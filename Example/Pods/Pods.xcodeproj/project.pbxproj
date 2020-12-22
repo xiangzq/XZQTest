@@ -162,10 +162,10 @@
 		31A1E2B62591A0690013230B /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				31A1E2B72591A0690013230B /* NSMutableArray+XCrash.h */,
 				31A1E2B82591A0690013230B /* NSArray+XCrash.h */,
 				31A1E2B92591A0690013230B /* NSArray+XCrash.m */,
 				31A1E2BA2591A0690013230B /* NSMutableArray+XCrash.m */,
+				31A1E2B72591A0690013230B /* NSMutableArray+XCrash.h */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -174,8 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				31A1E2BC2591A0690013230B /* NSDictionary+XCrash.h */,
-				31A1E2BD2591A0690013230B /* NSMutableDictionary+XCrash.h */,
 				31A1E2BE2591A0690013230B /* NSDictionary+XCrash.m */,
+				31A1E2BD2591A0690013230B /* NSMutableDictionary+XCrash.h */,
 				31A1E2BF2591A0690013230B /* NSMutableDictionary+XCrash.m */,
 			);
 			path = Dictionary;
